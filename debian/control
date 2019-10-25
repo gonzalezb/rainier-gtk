@@ -1,0 +1,13 @@
+Source: rainier-gtk-theme
+Section: gnome
+Priority: extra
+Maintainer: Kenneth Stier (Trenta.io) <kenny@trenta.io>
+Build-Depends: debhelper (>= 10.5.1)
+Standards-Version: 4.1.1
+Homepage: https://trenta.io/
+
+Package: rainier-gtk-theme
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, gtk2-engines-murrine, gnome-themes-standard
+Description: Rainier GTK Theme
+	
